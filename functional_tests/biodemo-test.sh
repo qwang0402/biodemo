@@ -143,6 +143,8 @@ parse_args $@
 # 2. Change to test directory
 cd $test_data_dir
 # 2. Run tests
+coverage run ${1/$test_program/$(which $test_program)}
+coverage combine .coverage functional_tests/test_data/.coverage
 test_stdout_exit "$test_program one_sequence.fasta" one_sequence.fasta.expected 0
 test_stdout_exit "$test_program two_sequence.fasta" two_sequence.fasta.expected 0
 test_stdout_exit "$test_program --minlen 200 two_sequence.fasta" two_sequence.fasta.minlen_200.expected 0
