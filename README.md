@@ -191,4 +191,5 @@ two_sequence.fasta      2       357     120     178     237
 
 Please submit bug reports and feature requests to the issue tracker on GitHub:
 
-[biodemo issue tracker](https://github.com/USERNAME/biodemo/issues)
+[biodemo issue tracker](https://github.com/qwang0402/biodemo/issues)
+[![codecov](https://codecov.io/github/qwang0402/biodemo/branch/master/graphs/badge.svg)](https://codecov.io/github/qwang0402/biodemo)
